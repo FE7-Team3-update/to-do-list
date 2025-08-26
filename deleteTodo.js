@@ -1,6 +1,4 @@
-const arr = [];
-
-function deleteTodo(id) {
+export function deleteTodo(id, arr) {
   const targetIndex = arr.findIndex((todo) => todo.id === id);
 
   if (targetIndex !== -1) arr.splice(targetIndex, 1);

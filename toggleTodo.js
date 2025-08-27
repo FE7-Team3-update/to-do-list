@@ -1,7 +1,7 @@
 export function toggleTodo(id, arr){
-  for (let todo of arr){
+  for (const todo of arr){
     if (todo.id === id) {
-      todo.completed = !completed;
+      todo.completed = !todo.completed;
       break;
     }
   }

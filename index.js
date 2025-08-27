@@ -4,7 +4,7 @@ import { printTodoList as print } from "./printTodoList.js";
 const todos = [];
 
 export function addTodo(text) {
-  add(text, todos);
+  return add(text, todos);
 }
 
 export function printTodoList() {

@@ -1,8 +1,8 @@
-import { addTodo as add } from "./addTodo.js";
-import { printTodoList as print } from "./printTodoList.js";
-import { deleteTodo as remove } from "./deleteTodo.js";
-import { modifyTodo as modify } from "./modifyTodo.js";
-import { toggleTodo as toggle } from "./toggleTodo.js";
+import { addTodo as add } from "./todo/addTodo.js";
+import { printTodoList as print } from "./todo/printTodoList.js";
+import { deleteTodo as remove } from "./todo/deleteTodo.js";
+import { modifyTodo as modify } from "./todo/modifyTodo.js";
+import { toggleTodo as toggle } from "./todo/toggleTodo.js";
 
 const todos = [];
 

@@ -6,5 +6,3 @@ function modifyTodo(id, text){
     }
   }
 }
-
-//todo.modifyTodo(b.id, "매일 아침 운동하기");

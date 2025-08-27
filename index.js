@@ -5,7 +5,7 @@ import { deleteTodo as remove } from "./deleteTodo.js";
 const todos = [];
 
 export function addTodo(text) {
-  add(text, todos);
+  return add(text, todos);
 }
 
 export function printTodoList() {
